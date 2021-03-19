@@ -13,8 +13,12 @@ the chassis and putting it back in, but without actually having to do so.
 
 ## OPTIONS
 
-* `-m`, `--maxnodes`:
-    Specify a maximum number of nodes to reseat, prompting if over the threshold
+* `-m MAXNODES`, `--maxnodes=MAXNODES`:
+  Specify a maximum number of nodes to run the command with, prompting if over
+  the threshold
+  
+* `-h`, `--help`:
+  Show help message and exit
 
 ## EXAMPLES
 
