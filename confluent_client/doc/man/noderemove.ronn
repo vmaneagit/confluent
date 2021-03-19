@@ -11,9 +11,12 @@ noderemove(8) -- Remove nodes from the confluent management service
 
 ## OPTIONS
 
-* `-m`, `--maxnodes`:
-    Specify a maximum number of nodes to delete, prompting if over the
-    threshold
+* `-m MAXNODES`, `--maxnodes=MAXNODES`:
+  Specify a maximum number of nodes to run the command with, prompting if over
+  the threshold
+  
+* `-h`, `--help`:
+  Show help message and exit
 
 ## EXAMPLES
 
