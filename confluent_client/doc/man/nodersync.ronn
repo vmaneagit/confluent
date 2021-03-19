@@ -17,7 +17,10 @@ noderange. This will present progress as percentage for all nodes.
   exceeds the count, then excess nodes will wait until one of the
   active count completes. 
   
-* `-m`, `--maxnodes`:
-  Specify a maximum number of nodes to run rsync to, prompting if over the
-  threshold
+* `-m MAXNODES`, `--maxnodes=MAXNODES`:
+  Specify a maximum number of nodes to run the command with, prompting if over
+  the threshold
+  
+* `-h`, `--help`:
+  Show help message and exit
   
