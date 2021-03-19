@@ -53,9 +53,12 @@ See nodegroupattrib(8) command on how to manage attributes on a group level.
   Request interactive prompting to provide values rather than the command line
   or environment variables.
   
-* `-m`, `--maxnodes`:
-  Prompt if trying to set attributes on more than
-  specified number of nodes.
+* `-m MAXNODES`, `--maxnodes=MAXNODES`:
+  Specify a maximum number of nodes to run the command with, prompting if over
+  the threshold
+  
+* `-h`, `--help`:
+  Show help message and exit
 
 ## EXAMPLES
 * Listing matching nodes of a simple noderange:
