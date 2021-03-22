@@ -54,6 +54,9 @@ node and group names sorted alphanumerically.
    Save output per node to individual log files, replacing {node} in the name
    with the nodename of each
    
+* `-h`, `--help`:
+  Show help message and exit   
+   
 ## EXAMPLES
  * Organizing power state of multiple nodes:  
   `# nodepower n1-n12 | collate`  
