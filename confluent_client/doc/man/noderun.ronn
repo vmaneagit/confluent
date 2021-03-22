@@ -22,8 +22,8 @@ themselves, see nodeshell(8).
   Do not prefix output with node names
   
 * `-m MAXNODES`, `--maxnodes=MAXNODES`:
-  Specify a maximum number of nodes to run the command with, prompting if over
-  the threshold
+  Specify a maximum number of nodes to run remote ssh command to, prompting if
+  over the threshold
   
 * `-h`, `--help`:
   Show help message and exit
